@@ -97,7 +97,7 @@ public class HourOfCodeTest {
     public static String[] loadData(){
         String[] returnData = new String[18];
         for(int i = 0; i < returnData.length; i++){
-            returnData[i] = getTextFromFile(String.format("src\\resources\\expectedOutputs\\Prob%02d.out.txt", i+1));
+            returnData[i] = getTextFromFile(String.format("src/resources/expectedOutputs/Prob%02d.out.txt", i+1));
         }
         return returnData;
     }
